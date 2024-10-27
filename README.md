@@ -19,6 +19,10 @@ We use natural language models (LLMs) via OpenAI and an intuitive user interface
     └── utils               # Utilities, DB connections, and decorators
 ```
 
+
+https://github.com/infantesromeroadrian/LLM-Query-Consulting/blob/71cdb7000b226f7f5c3d407152b90cb47a1b0132/arquitectura.md
+
+
 🛠️ Features 🔄 Natural language to SQL translation: 
 We use OpenAI models to interpret user questions and convert them into SQL queries. 
 🗃️ SQL query execution in MySQL: Direct connection to a MySQL database to execute generated queries and return results. 
