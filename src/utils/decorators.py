@@ -1,11 +1,8 @@
-## decorators.py
-
-
+# src/utils/decorators.py
 import logging
 import time
 from functools import wraps
 
-# Decorador para medir el tiempo de ejecución de las funciones
 def time_execution(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -17,7 +14,6 @@ def time_execution(func):
         return result
     return wrapper
 
-# Decorador para capturar excepciones y registrarlas
 def log_exceptions(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
